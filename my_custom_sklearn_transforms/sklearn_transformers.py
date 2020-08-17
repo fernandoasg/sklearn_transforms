@@ -18,8 +18,8 @@ class DropColumns(BaseEstimator, TransformerMixin):
     
     
 # All sklearn Transforms must have the `transform` and `fit` methods
-class RemoveZeros(BaseEstimator, TransformerMixin):
-
+class RemoveZeros():
+        
     def fit(self, X, y=None):
         return self
 
